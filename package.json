@@ -1,0 +1,25 @@
+{
+  "name": "node_npm_2022_kk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alimbaeva/Node_NPM_2022_KK.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alimbaeva/Node_NPM_2022_KK/issues"
+  },
+  "homepage": "https://github.com/alimbaeva/Node_NPM_2022_KK#readme",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "sass": "^1.50.0"
+  }
+}
