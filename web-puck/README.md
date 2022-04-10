@@ -1,5 +1,5 @@
 
-https://alimbaeva.github.io/Node_NPM_2022_KK/web-puck/dist/
+# https://alimbaeva.github.io/Node_NPM_2022_KK/web-puck/dist/
 
 
 
