@@ -1,0 +1,64 @@
+h1 {
+    background-color: aqua;
+    font-size: 70px;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    padding-bottom: 90px;
+    background-color: aquamarine;
+}
+
+.blockbox {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.blockTab {
+    width: 500px;
+    margin-left: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+button {
+    width: 33.3%;
+    height: 50px;
+    background-color: rgb(155, 209, 192);
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+button:nth-child(1) {
+    border-right: none;
+    border-radius: 20px 0 0 0;
+}
+
+button:nth-child(3) {
+    border-left: none;
+    border-radius: 0 20px 0 0;
+}
+
+img {
+    width: 500px;
+    border-radius: 20px;
+}
+
+p {
+    width: 85%;
+    margin: 20px auto;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+
+.none {
+    display: none;
+}
+
+.block {
+    display: block;
+}
