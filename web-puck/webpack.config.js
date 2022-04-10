@@ -22,7 +22,7 @@ module.exports = {
 
     //loader --> инструмент чтобы webpack понимал для файлов
 
-    modules: {
+    module: {
         rules: [
             //css
             { test: /\.css/, use: ['style-loader', 'css-loader'] },
@@ -31,7 +31,7 @@ module.exports = {
             //babel
             {
                 test: /\.js$/,
-                exculede: /node_modules/,   // исключать
+                exclude: /node_modules/,   // исключать
                 use: {
                     loader: "babel-loader",
                     options: {
@@ -48,7 +48,7 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             title: "Webpack Demo",  //  <title>Document</title>
-            filename: 'index.html',
+            filename: "index.html",
             template: path.resolve(__dirname, "src/index.html"),
         }),
     ],
